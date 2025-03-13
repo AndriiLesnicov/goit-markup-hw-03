@@ -61,6 +61,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
 }
 
 .header-logo {
@@ -164,6 +165,10 @@ a {
 
 /*benefits*/
 
+.benefits {
+  padding: 120px 0;
+}
+
 .benefits-title {
   font-weight: 700;
   font-size: 36px;
@@ -171,7 +176,6 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -322,7 +326,6 @@ a {
 
 .footer-logo {
   margin-bottom: 16px;
-  display: inline-block;
 }
 
 .footer-logo .logo-part {
