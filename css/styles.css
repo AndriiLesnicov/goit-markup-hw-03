@@ -68,10 +68,7 @@ a {
 
 .header-logo {
   width: 115px;
-  margin-left: 156px;
-  margin-top: 24px;
   margin-right: 76px;
-  margin-bottom: 24px;
 }
 
 .header-logo .logo-part {
@@ -81,13 +78,7 @@ a {
 .nav-list {
   display: flex;
   gap: 40px;
-}
-
-.nav-item {
-  margin-left: 0;
-  margin-top: 24px;
-  margin-right: 40px;
-  margin-bottom: 24px;
+  margin-right: 332px;
 }
 
 .nav-link {
@@ -106,7 +97,7 @@ a {
 .contacts-list {
   display: flex;
   gap: 40px;
-  justify-content: end;
+  padding: 24px 0;
 }
 
 .contacts-link {
@@ -128,6 +119,7 @@ a {
 .hero {
   background: #2e2f42;
   padding: 188px 0;
+  display: flex;
 }
 
 .hero-title {
